@@ -9,6 +9,6 @@ import (
 
 func main() {
 
-	demo.GetInt()
+	demo.GetString()
 
 }

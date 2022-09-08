@@ -37,7 +37,7 @@ func GetInt() {
 	fmt.Println(uc) //初始化后的默认值 0
 	fmt.Println(ud) //初始化后的默认值 0
 
-    var i int //32位的平台，为4字节，64位的平台为8字节
+        var i int //32位的平台，为4字节，64位的平台为8字节
 	var iu uint //32位的平台，为4字节，64位的平台为8字节
 	fmt.Println(i) //初始化后的默认值 0
 	fmt.Println(iu) //初始化后的默认值 0

@@ -9,6 +9,6 @@ import (
 
 func main() {
 
-	demo.GetString()
+	demo.GetRune()
 
 }

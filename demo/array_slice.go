@@ -4,7 +4,7 @@ import "fmt"
 
 //指针（pointer）
 
-//字典（map）
+
 //通道（chan）
 //结构体（struct）
 //接口（interface）
@@ -38,6 +38,12 @@ func GetSlice() {
 	var a []int
 	fmt.Println(a)                                   //输出 []
 	fmt.Printf("a的长度为:%d，容量为:%d \n", len(a), cap(a)) //默认长度容量为0
+
+	if a==nil { //仅仅申明其 与nil 相等
+		fmt.Printf("a与nil 比较\n")
+	}
+
+
 
 	var b = make([]int, 5, 6)
 	fmt.Println(b)                                   //输出 [0,0,0,0,0]

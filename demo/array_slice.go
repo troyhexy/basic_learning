@@ -2,7 +2,7 @@ package demo
 
 import "fmt"
 
-//指针（pointer）
+
 
 
 //通道（chan）

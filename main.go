@@ -4,7 +4,7 @@ import "basic_learning/demo"
 
 func main() {
 
-	demo.GetSecondPointer()
+	demo.GetConst()
 
 
 

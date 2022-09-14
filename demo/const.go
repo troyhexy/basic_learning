@@ -17,6 +17,9 @@ const a, b, c = 3, 4, "foo" // a = 3, b = 4, c = "foo", 无类型整型和字符
 
 const b1 = b
 
+//const w int
+//w=1 编译无法通过
+
 //const p  = &b 指针类型无法作为常量
 //const ErrShortWrite = errors.New("short write")
 //const s=[]int{1,2}
@@ -66,6 +69,8 @@ func GetConst() {
 	fmt.Println(b1)
 
 	//Pi=4 编译无法通过
+
+
 
 	//常量覆盖
 	const b = 5

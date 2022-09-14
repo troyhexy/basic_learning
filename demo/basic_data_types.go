@@ -125,3 +125,5 @@ func GetRune() {
 	fmt.Println(a)
 	fmt.Printf("a的值是：%c \n", a)
 }
+
+

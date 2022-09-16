@@ -1,6 +1,8 @@
 package demo
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Position struct {
 	x float64

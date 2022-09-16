@@ -68,7 +68,24 @@ func GetVarShort()  {
 
 	a1, b1, c1 := 12, 'A', "hello"
 	fmt.Println(a1,b1,c1)
+
+//	a:=1 无法编译通过
+	a,d:=test()
+	fmt.Println(a,d) //短变量声明赋值，多个返回值接收变量只要有一个未声明，就可以覆盖
+//	e,c:=test() //覆盖时必须是同类型
+
+
 }
+
+func test() (int ,int) {
+	return 1, 1
+}
+
+
+
+
+
+
 
 func GetVarRule()  {
 

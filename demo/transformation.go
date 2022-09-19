@@ -1,6 +1,9 @@
 package demo
 
-import "strconv"
+import (
+	"fmt"
+	"strconv"
+)
 
 //基本数据转化
 //GO 不支持隐式转换
@@ -51,6 +54,50 @@ func GetIntChange()  {
 
 //字符串类型转换
 func GetStringChange()  {
+	var(
+		a int8 = 1
+		b float32 =1.8
+		c rune = 'A'
+		d bool =false
+		e int =5
+		f int64 =1
+	)
+
+	//int 转 string
+	str := strconv.Itoa(e)
+
+	//int64 转string
+	str1 := strconv.FormatInt(f, 10)
+
+	println(str,str1)
+
+	// 转字符串
+	str2 := fmt.Sprintf("%d", a)
+	str3 := fmt.Sprintf("%f", b)
+	str4 := string(c)
+	str5 := fmt.Sprintf("%t", d)
+	str6 := fmt.Sprintf("%d", e)
+
+	println(str2,str3,str4,str5,str6)
+
+
+}
+
+func GetFloatChange()  {
+	var(
+		a int8 = 1
+		b float32 =1.8
+		s string ="1.5"
+	)
+
+	 f :=float32(a)
+	 f2 :=float64(b)
+
+	 //string 转 float64
+	 f3,err := strconv.ParseFloat(s,32)
+
+	println(f,f2,f3,err)
+
 
 }
 

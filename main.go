@@ -1,10 +1,10 @@
 package main
 
-import "basic_learning/demo"
+import "basic_learning/control"
 
 func main() {
 
-	demo.GetFloatChange()
+   control.GetForBugs()
 
 
 

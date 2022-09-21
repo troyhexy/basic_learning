@@ -1,10 +1,10 @@
 package main
 
-import "basic_learning/control"
+import "basic_learning/function"
 
 func main() {
 
-   control.GetForBugs()
+     function.UseAnonymousFunctionV3()
 
 
 

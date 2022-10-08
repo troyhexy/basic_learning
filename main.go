@@ -1,10 +1,14 @@
 package main
 
-import "basic_learning/function"
+import (
+     "basic_learning/exceptions"
+)
 
 func main() {
 
-     function.UseAnonymousFunctionV3()
+
+
+     exceptions.GetRecover()
 
 
 

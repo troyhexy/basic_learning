@@ -6,7 +6,7 @@ func main() {
 
 
 
-     object.GetEmbeddedMethodV2()
+     object.GetPolymorphic()
 
 
 

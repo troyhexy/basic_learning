@@ -1,14 +1,12 @@
 package main
 
-import (
-     "basic_learning/exceptions"
-)
+import "basic_learning/object"
 
 func main() {
 
 
 
-     exceptions.GetRecover()
+     object.GetEmbeddedMethodV2()
 
 
 

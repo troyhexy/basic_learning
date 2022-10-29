@@ -1,16 +1,13 @@
 package main
 
-import "basic_learning/object"
+import (
+	"basic_learning/object"
+	"fmt"
+)
 
 func main() {
 
-
-
-     object.GetPolymorphic()
-
-
-
-
-
+	object.GetPolymorphic()
+	fmt.Println(111)
 
 }
